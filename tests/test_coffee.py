@@ -18,3 +18,6 @@ def test_solve_some_kata_upper_case():
 
 def test_walk_a_cat_upper_case():
     assert how_much_coffee(["CAT"]) == 1
+
+def test_walk_a_cat_and_a_dog():
+    assert how_much_coffee(["cat""dog"]) == 2
