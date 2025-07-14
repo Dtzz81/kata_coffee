@@ -14,10 +14,12 @@ def test_watch_a_movie_lower_case():
     assert how_much_coffee(["movie"]) == 1
 
 def test_solve_some_kata_upper_case():
-    assert how_much_coffee(["CW"]) == 1
+    assert how_much_coffee(["CW"]) == 2
 
 def test_walk_a_cat_upper_case():
-    assert how_much_coffee(["CAT"]) == 1
+    assert how_much_coffee(["CAT"]) == 2
 
 def test_walk_a_cat_and_a_dog():
-    assert how_much_coffee(["cat""dog"]) == 2
+    assert how_much_coffee(["cat", "dog"]) == 2
+
+
